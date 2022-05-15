@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/backgroundtransaprent_txt_border">
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:id="@+id/grid_layout"
+            >
+
+            <com.example.linxoapp.customfonts.MyTextViewBold
+                android:id="@+id/txt_album_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Album Name"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:layout_weight="0.4"
+                android:layout_marginLeft="5dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary"/>
+
+
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

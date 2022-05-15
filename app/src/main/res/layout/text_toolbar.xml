@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:layout_gravity="left"
+    android:gravity="left"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_back"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="left"
+        android:gravity="left"
+        app:tint="@color/gray"
+        android:id="@+id/back"/>
+
+
+    <com.example.linxoapp.customfonts.MyTextViewBold
+        android:id="@+id/title_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Linxo App"
+        android:textColor="@color/gray"
+        android:textSize="16dp"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_home"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:visibility="visible"
+        android:id="@+id/home"
+        app:tint="@color/gray" />
+
+
+
+</androidx.appcompat.widget.Toolbar>

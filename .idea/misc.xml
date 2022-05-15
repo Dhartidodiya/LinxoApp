@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/PC89/AndroidStudioProjects/LinxoApp/app/src/main/res/drawable-v24/background_dialog.xml" value="0.206" />
+        <entry key="..\:/Users/PC89/AndroidStudioProjects/LinxoApp/app/src/main/res/drawable-v24/backgroundtransaprent_txt_border.xml" value="0.1" />
+        <entry key="..\:/Users/PC89/AndroidStudioProjects/LinxoApp/app/src/main/res/drawable-v24/ic_back.xml" value="0.1" />
+        <entry key="..\:/Users/PC89/AndroidStudioProjects/LinxoApp/app/src/main/res/drawable-v24/ic_home.xml" value="0.1" />
+        <entry key="..\:/Users/PC89/AndroidStudioProjects/LinxoApp/app/src/main/res/drawable/toast_layout.xml" value="0.259" />
+        <entry key="..\:/Users/PC89/AndroidStudioProjects/LinxoApp/app/src/main/res/layout/activity_grid.xml" value="0.1" />
+        <entry key="..\:/Users/PC89/AndroidStudioProjects/LinxoApp/app/src/main/res/layout/activity_main.xml" value="0.2463768115942029" />
+        <entry key="..\:/Users/PC89/AndroidStudioProjects/LinxoApp/app/src/main/res/layout/custom_album_layout.xml" value="0.1" />
+        <entry key="..\:/Users/PC89/AndroidStudioProjects/LinxoApp/app/src/main/res/layout/custom_photo_layout.xml" value="0.1" />
+        <entry key="..\:/Users/PC89/AndroidStudioProjects/LinxoApp/app/src/main/res/layout/custom_toolbar.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/PC89/AndroidStudioProjects/LinxoApp/app/src/main/res/layout/dialog_photo_view.xml" value="0.19" />
+        <entry key="..\:/Users/PC89/AndroidStudioProjects/LinxoApp/app/src/main/res/layout/text_toolbar.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/PC89/AndroidStudioProjects/LinxoApp/app/src/main/res/layout/toast_custom.xml" value="0.2463768115942029" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

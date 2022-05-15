@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="5dp">
+        <ImageView
+            android:id="@+id/GridImageview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+             />
+    </LinearLayout>
+
+
+
+    <com.example.linxoapp.customfonts.MyTextViewBold
+        android:id="@+id/GridTextView"
+        android:layout_width="match_parent"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
